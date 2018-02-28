@@ -1,0 +1,67 @@
+
+
+form{
+	margin:1em auto;
+	padding:1em;
+	text-align:center;
+	}
+
+#message{
+	font-style:italic;
+	font-size: 1em;
+}
+
+label, input{
+	margin-left:1em;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+h1, p {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+.info{
+	width:250px;	
+}
+
+.button{
+	cursor:pointer;	
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #cfc9c9;
+    color: black;
+}
+
+.previous {
+    background-color: #ddd;
+    color: black;
+}
+
+.next {
+    background-color: #ddd;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.side1{
+    background-color: lightblue ;
+}
+
+.side2{
+    background-color: lightgreen;
+}
+
+.side3{
+    background-color: lightslategray ;
+}

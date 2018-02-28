@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="side1">
+
+
+    <form id="toggle" action="thankyou.html" method="post" onsubmit="return validate(this)">
+        <h1>Om Mig</h1>
+        <p>
+            <b>Tilmeld dig nyhedsbrev</b>
+        </p>
+        <p id="message">&nbsp;</p>
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" class="info" value="">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" class="info" value="">
+        <input type="submit" value="Tilmeld" class="button">
+        <br>
+        <br>
+        <a href="#" onClick="clickedButton()" class="next round">&#8250;</a>
+    </form>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

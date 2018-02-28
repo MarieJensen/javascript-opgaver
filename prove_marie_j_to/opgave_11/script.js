@@ -4,7 +4,6 @@
 // Når man trykker på en knap, så skal den forsvinde.
 // Når alle tre knapper er forvundet, så skal den vise en besked i browseren, hvor der står "Godt klaret".
 
-var i = 0
 
 for (let i = 0; i < 3; i++) {
 
@@ -24,6 +23,7 @@ document.querySelectorAll('button').forEach(function (knap) {
         }
     })
 })
+
 
 
 

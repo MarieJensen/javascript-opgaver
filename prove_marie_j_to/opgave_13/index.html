@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <form id="formular" name="ContactForm">
+        <div class="row">
+            <div></div>
+            <div class="tabs three" style="text-align: center;">
+                <input id='tabC-1' type='radio' name='tabgroupC' checked />
+                <label class="pseudo button" for="tabC-1">1</label>
+                ❭
+                <input id='tabC-2' type='radio' name='tabgroupC'>
+                <label class="pseudo button" for="tabC-2">2</label>
+                ❭
+                <input id='tabC-3' type='radio' name='tabgroupC'>
+                <label class="pseudo button" for="tabC-3">3</label>
+                <div class="row" style="text-align: left;">
+                    <div>
+                        <div class="card baggrund1" style="margin: 10px 20px;">
+                            <header>
+                                <h3>Din Besked</h3>
+                            </header>
+                            <section>
+                                <input type="text" placeholder="Overskrift" id="overskrift">
+                            </section>
+                            <section>
+                                <textarea placeholder="Besked" id="besked"></textarea>
+                            </section>
+                            <footer>
+                                <label class="button" for="tabC-2">Næste</label>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="card baggrund2" style="margin: 10px 20px;">
+                            <header>
+                                <h3>Dit Navn</h3>
+                            </header>
+                            <section>
+                                <input type="text" placeholder="Fornavn" id="fornavn">
+                            </section>
+                            <section>
+                                <input type="text" placeholder="Efternavn" id="efternavn">
+                            </section>
+                            <footer>
+                                <label class="button" for="tabC-3">Næste</label>
+                                <label class="button dangerous" for="tabC-1">Tilbage</label>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="card baggrund3" style="margin: 10px 20px;">
+                            <header>
+                                <h3>Opret Profil</h3>
+                            </header>
+                            <section>
+                                <input type="email" placeholder="Email" id="email">
+                            </section>
+                            <section>
+                                <input type="password" placeholder="Kodeord" id="password">
+                            </section>
+                            <footer>
+                                <input type="submit" value="Send" name="submit" class="success">
+                                <label class="button dangerous" for="tabC-2">Tilbage</label>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </form>
+    <div class="fejl"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
